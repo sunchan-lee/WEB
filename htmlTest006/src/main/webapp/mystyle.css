@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+li{
+	list-style: none;
+}
+
+h1{
+	position: absolute;
+	left: -9999px;
+}
+
+.flex{
+	display: flex;
+}
+
+main>div{
+	width: 960px;
+/* 		///  상    우 좌  하 */
+	margin: 100px auto 0;
+}
+
+ul li{
+	padding: 1em;
+	border: 1px solid #999;
+	background-color:  #e9e9e9
+}
+
+/* 본문내용은 높이가 200 */
+
+ol{
+	margin-top: -1px;
+}
+
+ul li:hover, ul li.clicked{
+	color: red;
+	background-color: transparent;
+	border-bottom: none;
+}
+
+ol li{
+	border: 1px solid #999;
+	height: 200px;
+}
